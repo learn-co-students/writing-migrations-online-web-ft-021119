@@ -7,3 +7,7 @@ gem 'activerecord', require: 'active_record'
 gem 'rspec'
 gem 'rake'
 gem 'pry'
+group :development, :test do
+  gem 'pry'
+  gem 'rb-readline'
+end
